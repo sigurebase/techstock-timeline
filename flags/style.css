@@ -1,0 +1,76 @@
+/* Inline country flags for the TECHSTOCK and Arterium article editors.
+   Flag artwork: flag-icons v7.5.0 (MIT), https://github.com/lipis/flag-icons.
+   Map current country names explicitly so historical links keep their meaning. */
+a.page-link[data-page-title="アメリカ"] { --country-flag: url("./us.svg"); }
+a.page-link[data-page-title="イギリス"] { --country-flag: url("./gb.svg"); }
+a.page-link[data-page-title="イタリア"] { --country-flag: url("./it.svg"); }
+a.page-link[data-page-title="エジプト"] { --country-flag: url("./eg.png"); }
+a.page-link[data-page-title="オランダ"] { --country-flag: url("./nl.svg"); }
+a.page-link[data-page-title="ギリシャ"] { --country-flag: url("./gr.svg"); }
+a.page-link[data-page-title="スイス"] { --country-flag: url("./ch.svg"); }
+a.page-link[data-page-title="スウェーデン"] { --country-flag: url("./se.svg"); }
+a.page-link[data-page-title="スペイン"] { --country-flag: url("./es.png"); }
+a.page-link[data-page-title="デンマーク"] { --country-flag: url("./dk.svg"); }
+a.page-link[data-page-title="ドイツ"] { --country-flag: url("./de.svg"); }
+a.page-link[data-page-title="ノルウェー"] { --country-flag: url("./no.svg"); }
+a.page-link[data-page-title="フィンランド"] { --country-flag: url("./fi.svg"); }
+a.page-link[data-page-title="フランス"] { --country-flag: url("./fr.svg"); }
+a.page-link[data-page-title="ポーランド"] { --country-flag: url("./pl.svg"); }
+a.page-link[data-page-title="メキシコ"] { --country-flag: url("./mx.png"); }
+a.page-link[data-page-title="ロシア"] { --country-flag: url("./ru.svg"); }
+a.page-link[data-page-title="日本"] { --country-flag: url("./jp.svg"); }
+
+.page .line:not(.cursor-line) a.page-link:not(.icon, [type="hashTag"]):is(
+  [data-page-title="アメリカ"],
+  [data-page-title="イギリス"],
+  [data-page-title="イタリア"],
+  [data-page-title="エジプト"],
+  [data-page-title="オランダ"],
+  [data-page-title="ギリシャ"],
+  [data-page-title="スイス"],
+  [data-page-title="スウェーデン"],
+  [data-page-title="スペイン"],
+  [data-page-title="デンマーク"],
+  [data-page-title="ドイツ"],
+  [data-page-title="ノルウェー"],
+  [data-page-title="フィンランド"],
+  [data-page-title="フランス"],
+  [data-page-title="ポーランド"],
+  [data-page-title="メキシコ"],
+  [data-page-title="ロシア"],
+  [data-page-title="日本"]
+) {
+  position: relative;
+  padding-inline-start: 1.48em;
+}
+
+.page .line:not(.cursor-line) a.page-link:not(.icon, [type="hashTag"]):is(
+  [data-page-title="アメリカ"],
+  [data-page-title="イギリス"],
+  [data-page-title="イタリア"],
+  [data-page-title="エジプト"],
+  [data-page-title="オランダ"],
+  [data-page-title="ギリシャ"],
+  [data-page-title="スイス"],
+  [data-page-title="スウェーデン"],
+  [data-page-title="スペイン"],
+  [data-page-title="デンマーク"],
+  [data-page-title="ドイツ"],
+  [data-page-title="ノルウェー"],
+  [data-page-title="フィンランド"],
+  [data-page-title="フランス"],
+  [data-page-title="ポーランド"],
+  [data-page-title="メキシコ"],
+  [data-page-title="ロシア"],
+  [data-page-title="日本"]
+)::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.15em;
+  height: .86em;
+  background: var(--country-flag) center / contain no-repeat;
+  pointer-events: none;
+}
