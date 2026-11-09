@@ -21,48 +21,48 @@ a.page-link[data-page-title="ロシア"] { --country-flag: url("./ru.svg"); }
 a.page-link[data-page-title="日本"] { --country-flag: url("./jp.svg"); }
 
 .page .line:not(.cursor-line) a.page-link:not(.icon, [type="hashTag"]):is(
-  [data-page-title="アメリカ"],
-  [data-page-title="イギリス"],
-  [data-page-title="イタリア"],
-  [data-page-title="エジプト"],
-  [data-page-title="オランダ"],
-  [data-page-title="ギリシャ"],
-  [data-page-title="スイス"],
-  [data-page-title="スウェーデン"],
-  [data-page-title="スペイン"],
-  [data-page-title="デンマーク"],
-  [data-page-title="ドイツ"],
-  [data-page-title="ノルウェー"],
-  [data-page-title="フィンランド"],
-  [data-page-title="フランス"],
-  [data-page-title="ポーランド"],
-  [data-page-title="メキシコ"],
-  [data-page-title="ロシア"],
-  [data-page-title="日本"]
+  [data-page-title="アメリカ"]:not(span:has(> a.icon > img[alt="アメリカ"]) + span > a),
+  [data-page-title="イギリス"]:not(span:has(> a.icon > img[alt="イギリス"]) + span > a),
+  [data-page-title="イタリア"]:not(span:has(> a.icon > img[alt="イタリア"]) + span > a),
+  [data-page-title="エジプト"]:not(span:has(> a.icon > img[alt="エジプト"]) + span > a),
+  [data-page-title="オランダ"]:not(span:has(> a.icon > img[alt="オランダ"]) + span > a),
+  [data-page-title="ギリシャ"]:not(span:has(> a.icon > img[alt="ギリシャ"]) + span > a),
+  [data-page-title="スイス"]:not(span:has(> a.icon > img[alt="スイス"]) + span > a),
+  [data-page-title="スウェーデン"]:not(span:has(> a.icon > img[alt="スウェーデン"]) + span > a),
+  [data-page-title="スペイン"]:not(span:has(> a.icon > img[alt="スペイン"]) + span > a),
+  [data-page-title="デンマーク"]:not(span:has(> a.icon > img[alt="デンマーク"]) + span > a),
+  [data-page-title="ドイツ"]:not(span:has(> a.icon > img[alt="ドイツ"]) + span > a),
+  [data-page-title="ノルウェー"]:not(span:has(> a.icon > img[alt="ノルウェー"]) + span > a),
+  [data-page-title="フィンランド"]:not(span:has(> a.icon > img[alt="フィンランド"]) + span > a),
+  [data-page-title="フランス"]:not(span:has(> a.icon > img[alt="フランス"]) + span > a),
+  [data-page-title="ポーランド"]:not(span:has(> a.icon > img[alt="ポーランド"]) + span > a),
+  [data-page-title="メキシコ"]:not(span:has(> a.icon > img[alt="メキシコ"]) + span > a),
+  [data-page-title="ロシア"]:not(span:has(> a.icon > img[alt="ロシア"]) + span > a),
+  [data-page-title="日本"]:not(span:has(> a.icon > img[alt="日本"]) + span > a)
 ) {
   position: relative;
   padding-inline-start: 1.48em;
 }
 
 .page .line:not(.cursor-line) a.page-link:not(.icon, [type="hashTag"]):is(
-  [data-page-title="アメリカ"],
-  [data-page-title="イギリス"],
-  [data-page-title="イタリア"],
-  [data-page-title="エジプト"],
-  [data-page-title="オランダ"],
-  [data-page-title="ギリシャ"],
-  [data-page-title="スイス"],
-  [data-page-title="スウェーデン"],
-  [data-page-title="スペイン"],
-  [data-page-title="デンマーク"],
-  [data-page-title="ドイツ"],
-  [data-page-title="ノルウェー"],
-  [data-page-title="フィンランド"],
-  [data-page-title="フランス"],
-  [data-page-title="ポーランド"],
-  [data-page-title="メキシコ"],
-  [data-page-title="ロシア"],
-  [data-page-title="日本"]
+  [data-page-title="アメリカ"]:not(span:has(> a.icon > img[alt="アメリカ"]) + span > a),
+  [data-page-title="イギリス"]:not(span:has(> a.icon > img[alt="イギリス"]) + span > a),
+  [data-page-title="イタリア"]:not(span:has(> a.icon > img[alt="イタリア"]) + span > a),
+  [data-page-title="エジプト"]:not(span:has(> a.icon > img[alt="エジプト"]) + span > a),
+  [data-page-title="オランダ"]:not(span:has(> a.icon > img[alt="オランダ"]) + span > a),
+  [data-page-title="ギリシャ"]:not(span:has(> a.icon > img[alt="ギリシャ"]) + span > a),
+  [data-page-title="スイス"]:not(span:has(> a.icon > img[alt="スイス"]) + span > a),
+  [data-page-title="スウェーデン"]:not(span:has(> a.icon > img[alt="スウェーデン"]) + span > a),
+  [data-page-title="スペイン"]:not(span:has(> a.icon > img[alt="スペイン"]) + span > a),
+  [data-page-title="デンマーク"]:not(span:has(> a.icon > img[alt="デンマーク"]) + span > a),
+  [data-page-title="ドイツ"]:not(span:has(> a.icon > img[alt="ドイツ"]) + span > a),
+  [data-page-title="ノルウェー"]:not(span:has(> a.icon > img[alt="ノルウェー"]) + span > a),
+  [data-page-title="フィンランド"]:not(span:has(> a.icon > img[alt="フィンランド"]) + span > a),
+  [data-page-title="フランス"]:not(span:has(> a.icon > img[alt="フランス"]) + span > a),
+  [data-page-title="ポーランド"]:not(span:has(> a.icon > img[alt="ポーランド"]) + span > a),
+  [data-page-title="メキシコ"]:not(span:has(> a.icon > img[alt="メキシコ"]) + span > a),
+  [data-page-title="ロシア"]:not(span:has(> a.icon > img[alt="ロシア"]) + span > a),
+  [data-page-title="日本"]:not(span:has(> a.icon > img[alt="日本"]) + span > a)
 )::after {
   content: "";
   position: absolute;
